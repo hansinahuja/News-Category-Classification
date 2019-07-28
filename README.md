@@ -1,7 +1,9 @@
 # News-Category-Classification
 Implementing a news classification program, trained with headlines and short descriptions of 37 categories of news. The model uses an embedding layer which uses pretrained GloVe vector, followed by 2 blocks of a bidirectional LSTM layer and a Dropout layer, and finally a fully connected layer. The model plot is as follows:
 
-![Model plot](img/model.png)
+<p align="center">
+  <img src="img/model.png">
+</p>
 
 Other details:
 - Optimizer: Adam
